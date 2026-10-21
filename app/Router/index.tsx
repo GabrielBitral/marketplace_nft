@@ -5,7 +5,7 @@ import dynamic from "next/dynamic";
 import { useSyncExternalStore, type ReactNode } from "react";
 import { useAuth } from "../Contexts/AuthContext";
 
-const RouteLoading = () => <main className="route-message" aria-busy="true">Carregando marketplace...</main>;
+const RouteLoading = () => <InitialMarketplace />;
 const AccountForm = dynamic(() => import("../Components/AccountForm"), { loading: RouteLoading });
 const Carteiras = dynamic(() => import("../Pages/Carteiras"), { loading: RouteLoading });
 const Carrinho = dynamic(() => import("../Pages/Carrinho"), { loading: RouteLoading });
