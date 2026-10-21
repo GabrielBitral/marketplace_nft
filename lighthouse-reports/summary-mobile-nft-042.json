@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://127.0.0.1:3001",
+  "generatedAt": "2026-10-21T00:25:43.175Z",
+  "summaries": [
+    {
+      "profile": "mobile",
+      "page": "/nft/042",
+      "runs": 3,
+      "median": {
+        "performance": 92,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 91,
+        "lcp": 2988.7898,
+        "cls": 0,
+        "tbt": 167
+      }
+    }
+  ]
+}

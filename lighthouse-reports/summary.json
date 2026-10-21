@@ -1,0 +1,72 @@
+{
+  "baseUrl": "http://127.0.0.1:3012",
+  "generatedAt": "2026-10-21T18:19:18.105Z",
+  "environment": {
+    "node": "v22.13.1",
+    "platform": "win32",
+    "architecture": "x64",
+    "chromeFlags": [
+      "--headless",
+      "--no-first-run",
+      "--no-default-browser-check"
+    ]
+  },
+  "summaries": [
+    {
+      "profile": "desktop",
+      "page": "/",
+      "runs": 3,
+      "median": {
+        "performance": 88,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100,
+        "lcp": 1809.7491999999997,
+        "cls": 0,
+        "tbt": 132
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "/nft/042",
+      "runs": 3,
+      "median": {
+        "performance": 87,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100,
+        "lcp": 2110.726,
+        "cls": 0,
+        "tbt": 125
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "/",
+      "runs": 3,
+      "median": {
+        "performance": 92,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100,
+        "lcp": 3135.1284,
+        "cls": 0.01094988881651356,
+        "tbt": 128
+      }
+    },
+    {
+      "profile": "mobile",
+      "page": "/nft/042",
+      "runs": 3,
+      "median": {
+        "performance": 98,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100,
+        "lcp": 1958.772,
+        "cls": 0,
+        "tbt": 128
+      }
+    }
+  ]
+}

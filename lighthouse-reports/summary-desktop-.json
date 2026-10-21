@@ -1,0 +1,20 @@
+{
+  "baseUrl": "http://127.0.0.1:3001",
+  "generatedAt": "2026-10-21T00:23:47.819Z",
+  "summaries": [
+    {
+      "profile": "desktop",
+      "page": "/",
+      "runs": 3,
+      "median": {
+        "performance": 75,
+        "accessibility": 89,
+        "best-practices": 96,
+        "seo": 91,
+        "lcp": 3030.3242999999998,
+        "cls": 0,
+        "tbt": 215
+      }
+    }
+  ]
+}

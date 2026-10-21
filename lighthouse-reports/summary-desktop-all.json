@@ -1,0 +1,44 @@
+{
+  "baseUrl": "http://127.0.0.1:3008",
+  "generatedAt": "2026-10-21T17:31:28.800Z",
+  "environment": {
+    "node": "v22.13.1",
+    "platform": "win32",
+    "architecture": "x64",
+    "chromeFlags": [
+      "--headless",
+      "--no-first-run",
+      "--no-default-browser-check"
+    ]
+  },
+  "summaries": [
+    {
+      "profile": "desktop",
+      "page": "/",
+      "runs": 3,
+      "median": {
+        "performance": 86,
+        "accessibility": 96,
+        "best-practices": 96,
+        "seo": 100,
+        "lcp": 2261.4461,
+        "cls": 0,
+        "tbt": 123
+      }
+    },
+    {
+      "profile": "desktop",
+      "page": "/nft/042",
+      "runs": 3,
+      "median": {
+        "performance": 85,
+        "accessibility": 100,
+        "best-practices": 96,
+        "seo": 100,
+        "lcp": 2379.308,
+        "cls": 0,
+        "tbt": 135.5
+      }
+    }
+  ]
+}
